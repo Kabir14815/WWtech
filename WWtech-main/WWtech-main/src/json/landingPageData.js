@@ -1,12 +1,10 @@
-/* eslint-disable import/extensions */
-
 // Services Img Imports
 import Web from '../assets/images/Services/Web.png';
 import Mobile from '../assets/images/Services/Mobile.png';
 import UIUX from '../assets/images/Services/Design.png';
 
 // Portfolio Img Imports
-import Recruiting from '../assets/images/Portfolio/Recruiting.png';
+import Recruiting from '../assets/images/Portfolio/image.png';
 import Freelance from '../assets/images/Portfolio/Freelance.png';
 import Aura from '../assets/images/Portfolio/Aura.png';
 
@@ -20,17 +18,6 @@ import Favorite from '../assets/images/Advantages/Favorite.png';
 import Sasha from '../assets/images/Testimonials/Sasha.jpg';
 import Reiner from '../assets/images/Testimonials/Reiner.jpg';
 import Kruger from '../assets/images/Testimonials/Kruger.jpg';
-
-// TeamMembers
-import CEO from '../assets/images/TeamMembers/CEO.jpg';
-import ProjectManager from '../assets/images/TeamMembers/Project-manager.jpg';
-import Frontend1 from '../assets/images/TeamMembers/Frontend1.jpg';
-import Frontend2 from '../assets/images/TeamMembers/Frontend2.jpg';
-import Backend1 from '../assets/images/TeamMembers/Backend1.jpg';
-import Backend2 from '../assets/images/TeamMembers/Backend2.jpg';
-import Mobile1 from '../assets/images/TeamMembers/Mobile1.jpg';
-import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
-
 // Constants for repeated responsibilities
 const webDev = ['Web Development', 'UI/UX Design'];
 const mobileDev = ['Mobile Development', 'UI/UX Design'];
@@ -38,7 +25,7 @@ const mobileDev = ['Mobile Development', 'UI/UX Design'];
 export const Services = [
   {
     title: 'Web Development',
-    imageUrl: Web,        // Make sure Web is imported
+    imageUrl: Web,        
     animation: 'left',
   },
   {
@@ -91,17 +78,17 @@ export const Advantages = [
   },
   {
     title: 'Management',
-    description: 'We manage our project properly to make our project done well.',
+    description: 'We manage our project properly to make our project impressive.',
     imageUrl: Management,
   }],
   [{
     title: 'Collaborative​',
-    description: 'Our team are very collaborative to make our project done well.',
+    description: 'Our team is very collaborative to make our project best.',
     imageUrl: Collaborative,
   },
   {
     title: 'Favorite',
-    description: "We've did so many project and all of our client love it.",
+    description: "We've did so many project and all of our client have loved the projects and shared positive feedback.",
     imageUrl: Favorite,
   }],
 ];
@@ -131,45 +118,34 @@ export const Testimonials = [
 
 export const TeamMembers = [
   {
-    name: 'Kabir Lal',
+    name: 'Kabir ',
     position: 'CEO',
-    imageUrl: CEO,
+    imageUrl: "https://ui-avatars.com/api/?name=Kabir+Lal",
   },
   {
     name: 'Sagar Saini',
     position: 'Project Manager',
-    imageUrl: ProjectManager,
+    imageUrl: "https://ui-avatars.com/api/?name=Sagar+Saini",
   },
   {
     name: 'Amit Kumar',
     position: 'Front-end Developer',
-    imageUrl: Frontend1,
+    imageUrl: "https://ui-avatars.com/api/?name=Amit+Kumar",
   },
   {
     name: 'Sagar Saini',
     position: 'Front-end Developer',
-    imageUrl: Frontend2,
+    imageUrl: "https://ui-avatars.com/api/?name=Sagar+Saini",
   },
   {
-    name: 'Kabir Lal',
+    name: 'Kabir',
     position: 'Back-end Developer',
-    imageUrl: Backend1,
+    imageUrl: "https://ui-avatars.com/api/?name=Kabir+Lal",
   },
   {
-    name: 'Don Bizaro',
-    position: 'Back-end Developer',
-    imageUrl: Backend2,
-  },
-  {
-    name: 'Bill Markinson',
+    name: 'Vivek saini',
     position: 'Mobile Developer',
-    imageUrl: Mobile1,
-  },
-
-  {
-    name: 'Freddie Curl',
-    position: 'UI/UX Designer',
-    imageUrl: UIUX2,
+    imageUrl: "https://ui-avatars.com/api/?name=Vivek+Saini",
   },
 
 ];

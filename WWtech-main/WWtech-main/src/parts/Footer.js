@@ -1,3 +1,7 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable import/extensions */
+/* eslint-disable max-len */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -71,13 +75,13 @@ export default function Footer() {
     <Link to="/" className="text-gray-400 hover:underline">Home</Link>
   </li>
   <li>
-    <Link to="/about" className="text-gray-400 hover:underline">About</Link>
+    <Link to="/" className="text-gray-400 hover:underline">About</Link>
   </li>
   <li>
-    <Link to="/portfolio" className="text-gray-400 hover:underline">Portfolio</Link>
+    <Link to="/project" className="text-gray-400 hover:underline">Portfolio</Link>
   </li>
   <li>
-    <Link to="/contact" className="text-gray-400 hover:underline">Contact</Link>
+    <Link to="/team" className="text-gray-400 hover:underline">Contact</Link>
   </li>
 </ul>
           </div>

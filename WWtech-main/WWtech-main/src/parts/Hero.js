@@ -1,6 +1,8 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable import/extensions */
+/* eslint-disable max-len */
+
 import React from "react";
 
 import { Fade } from "react-awesome-reveal";
@@ -20,8 +22,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg sm:text-xl text-gray-500 leading-relaxed mb-10 max-w-xl">
-          We provide skilled developers and designers using the latest technologies
-          to help scale your business effectively and efficiently.
+        We provide highly skilled developers and designers who leverage the latest technologies to help scale your business swiftly, efficiently, and effectively.
         </p>
 
         <Fade direction="up" delay={500} triggerOnce>
